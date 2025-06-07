@@ -118,3 +118,55 @@
 #     print(" el numero {numero1} no esta entre el 10 y 20")
 # else:
 #     print("el numero si esta estre el 10 y 20")
+
+#ejercicio 5 
+#dado tres numeros encuentra el mayor utilizando condicionales 
+
+# numero1=(int(input("ingrese el primer numero:", )))
+# numero2=(int(input("ingrese el segundo numero:", )))      #pedimos los datos 
+# numero3=(int(input("ingrese el tercer numero:", )))
+
+# if numero1 >= numero2 and numero1 >= numero3:
+#     mayor = numero1
+# elif numero2 >= numero1 and numero2 >= numero3:     #comparamos usando condicionales 
+#     mayor = numero2
+# else:
+#     mayor = numero3
+
+# print("el numero mayor es:", mayor)               #mostramos el resultado
+
+# ejercicio 6
+#calcula el precio final con un 10% de descuento si el total es mayor a 100
+
+# compra=(int(input("ingrese el total de su compra:", )))
+# descuento=compra*0.10
+# total=compra-descuento 
+# if compra >= 100:
+#     print(f"su compra supero 100 y tiene un descuento de {total}")
+# else:
+#     print(f"su compra tiene un total de {compra}")
+
+#ejercicio 7
+#verifica si una persona puede votar (mayor o igual a 18 años)
+
+# edad=(int(input("ingrese su edad:",)))
+
+# if edad < 18:
+#      print("no tiene permitido votar")
+# else:
+#      print("si tiene permitido votar")
+
+#ejercicio 8
+# dado el precio y tipo de cliente (vip o normal) aplica un descuento del 20% solo al vip
+
+cliente=(input("que tipo de cliente eres:", ))
+compra=(int(input("ingre el precio:", )))
+clie=cliente
+descuento=compra*0.20
+total=compra-descuento 
+if cliente==clie:
+    print(f"su compra tiene un descuento por ser vip {total}")
+else:
+    print(f"su compra tiene un total de {compra}")
+
+
