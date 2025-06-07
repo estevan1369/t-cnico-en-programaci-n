@@ -2,7 +2,7 @@
 
 # ejemplo
 
-x=("ingresa dies digitos  .")
+x=("ingresa dies digitos  ")
 x1=(int(input("numero 1:", )))
 x2=(int(input("numero 2:", )))
 x3=(int(input("numero 3:", )))

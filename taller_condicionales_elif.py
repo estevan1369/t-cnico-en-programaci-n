@@ -159,14 +159,93 @@
 #ejercicio 8
 # dado el precio y tipo de cliente (vip o normal) aplica un descuento del 20% solo al vip
 
-cliente=(input("que tipo de cliente eres:", ))
-compra=(int(input("ingre el precio:", )))
-clie=cliente
-descuento=compra*0.20
-total=compra-descuento 
-if cliente==clie:
-    print(f"su compra tiene un descuento por ser vip {total}")
-else:
-    print(f"su compra tiene un total de {compra}")
+
+# compra=(int(input("ingre el precio:", )))
+# print("eres cliente vip ?"\
+#       "ingresar"\
+#         "si"\
+#             "no")
+
+# cliente=(input("que tipo de cliente eres:", )).upper()
+# descuento=compra*0.20
+# total=compra-descuento 
+# if cliente == "SI":
+#     print(f"su compra tiene un descuento por ser vip {total}")
+# elif cliente =="NO":
+#     print(f"su compra tiene un total de {compra}")
+# else:
+#     print(" se produjo un error")
+
+#ejercicio 9
+#determina si un numero es multiplo de 5 y de 3 al mismo tiempo
+
+# numero=(int(input("ingrese el numero:", )))
+
+# if numero % 5 == 0 and numero % 3 == 0 :
+#     print("el numero si es multiplo de 5 y 3 al mismo tiempo")
+# else : 
+#     print("el numero no es multiplo de 5 y 3")
+
+# ejercicio 10 
+#dado un numero revisa si es divisible entre dos numero dados 
+
+# numero1=(int(input("ingrese el primer numero:", )))
+# numero2=(int(input("ingrese el segundo numero:", )))
+# numero3=(int(input("ingrese el primer tercer:", )))
+
+# if numero1 % numero2 == 0 and numero1 % numero3 == 0:
+#     print("si es divisible")
+# elif numero2 % numero1 == 0 and numero2 % numero3 == 0:
+#     print("si es divisible 2")
+# else: 
+#     print("es divisible entre el 3")
+
+#ejercicio 11
+#crea una lista con 5 numeros si el tercer numero es mayor que 10 muestra"mayor a 10" "menor igual a 10"
+
+# numero=[2,3,4,5,6,]
+
+# if numero[2] > 10:
+#     print("mayor a 10")
+# else:
+#     print("menor o igual a 10")
+
+#ejercicio 12
+#verifica si el numeero 7 esta en la liata.si esta, muestra "esta en  la lista" so no, "no esta en la lista"
+
+# numero=[3,5,7,9]
+# if 7 in numero:
+#     print("esta en la lista")
+# else:
+#     print("no esta en la lista")
+
+#ejercicio 13
+#suma los do primeros nunmeros, si la suma es mayor a 10 que muestre "suma alta" si no "suma baja"
+
+# lista=[4,6,2,8]
+
+# suma=[0]+[1]
+# if suma > 10:
+#     print("suma alta")
+# else:
+#     print("suma baja")
+
+# ejercicio 14
+#dada la lista,muestra el ultimo nombre.si es marta,muestra"nombre correcto" sino, "nombre diferente"
+
+# nombres=["ana","luis","pedro","marta"]
+# ultimo_nombre=nombres[-1]
+# if ultimo_nombre == "marta":
+#     print("nombre correcto")
+# else: 
+#     print("nombre incorrecto")
+
+# ejercicio 15
+#crea una lista con tres colores.cambia el segundo color solo si es azul,y muestrala actualizada
+
+# colores=["rojo","azul","amarillo"]
+# if colores[1] == "azul":
+#     colores[1] = "morado"
+# print(f"lista actuallizada{colores}")
 
 
