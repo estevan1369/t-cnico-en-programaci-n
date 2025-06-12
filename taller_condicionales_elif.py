@@ -1,9 +1,9 @@
-# sentencias 
+# sentencias
 #ejempo 1
 # a=2+3
 # if a==4:
 #     print("A es igual a cuatro")
-# elif a==5: 
+# elif a==5:
 #     print("A es igual a cinco")
 # elif a==6:
 #     rpint("A es igual a seis")
@@ -15,7 +15,7 @@
 
 # nombre=(input("ingtrese su nombre completo:", ))
 # edad=(int(input("ingrese su edad:", )))
-# credito=(float(input("ingrese su creditto:",))) # taller de condicionales 
+# credito=(float(input("ingrese su creditto:",))) # taller de condicionales
 
 # if edad < 18:
 #     print("no tiene permitido esto")
@@ -27,7 +27,7 @@
 #     print("no se cumplen las condiciones")
 
 #ejercicio 3
-#entrada a un parque 
+#entrada a un parque
 
 # edad=int(input("ingrese su edad:", ))
 
@@ -43,15 +43,15 @@
 # print ("se finaliza el programa ")
 
 #ejercicio 4
-#calculadora 
+#calculadora
 
-# numero1=(float(input("ingrese el primer numero:", )))  #pido datos al usuario 
+# numero1=(float(input("ingrese el primer numero:", )))  #pido datos al usuario
 # numero2=(float(input("ingrese el segundo numero:", )))
- 
+
 # print(f"ingresar numero correspondiente a la operacion")
 # print(f"operacines:"\
 #       "1:"\
-#         "suma"\                                            #pido eljir la operacion 
+#         "suma"\                                            #pido eljir la operacion
 #             "2:resta"\
 #                 "3:multiplicacion"\
 #                     "4:division"\
@@ -60,7 +60,7 @@
 # operacion=(int(input("ingrese el numero de la operacion deseada:", )))
 # suma=numero1+numero2
 # resta=numero1-numero2
-# multiplicacion=numero1*numero2                  #cree operuaciones 
+# multiplicacion=numero1*numero2                  #cree operuaciones
 # division=numero1//numero2
 # exponente=numero1**numero2
 
@@ -77,7 +77,7 @@
 #     print(f"la division de {numero1} y {numero2} es {division}")
 # elif operacion ==5:
 #     print(f"la exponente de {numero1} y {numero2} es {exponente}")
-# else: 
+# else:
 #     print("no ingresaste ningun numero")
 
 #ejercicio 1
@@ -92,7 +92,7 @@
 #     print("el numero es negativo")
 
 #ejercicio 2
-#calcula el mayor de dos numeros ingresados 
+#calcula el mayor de dos numeros ingresados
 
 # numero1=(int(input("ingrese el primer numero:", )))
 # numero2=(int(input("ingurese el segundo numero:", )))
@@ -102,11 +102,11 @@
 #      print(f"el numero {numero2} es mayor al {numero1}")
 
 # ejercicio 3
-#determina si un numero es par o impar 
+#determina si un numero es par o impar
 
 # numero=(int(input("ingrese un numero:", )))
 # if numero % 2 == 0:
-#     print("el numero es par")                     # el signo % saca los residuos de las operaciones 
+#     print("el numero es par")                     # el signo % saca los residuos de las operaciones
 # else:
 #     print("el numero es impar")
 
@@ -119,16 +119,16 @@
 # else:
 #     print("el numero si esta estre el 10 y 20")
 
-#ejercicio 5 
-#dado tres numeros encuentra el mayor utilizando condicionales 
+#ejercicio 5
+#dado tres numeros encuentra el mayor utilizando condicionales
 
 # numero1=(int(input("ingrese el primer numero:", )))
-# numero2=(int(input("ingrese el segundo numero:", )))      #pedimos los datos 
+# numero2=(int(input("ingrese el segundo numero:", )))      #pedimos los datos
 # numero3=(int(input("ingrese el tercer numero:", )))
 
 # if numero1 >= numero2 and numero1 >= numero3:
 #     mayor = numero1
-# elif numero2 >= numero1 and numero2 >= numero3:     #comparamos usando condicionales 
+# elif numero2 >= numero1 and numero2 >= numero3:     #comparamos usando condicionales
 #     mayor = numero2
 # else:
 #     mayor = numero3
@@ -140,7 +140,7 @@
 
 # compra=(int(input("ingrese el total de su compra:", )))
 # descuento=compra*0.10
-# total=compra-descuento 
+# total=compra-descuento
 # if compra >= 100:
 #     print(f"su compra supero 100 y tiene un descuento de {total}")
 # else:
@@ -168,7 +168,7 @@
 
 # cliente=(input("que tipo de cliente eres:", )).upper()
 # descuento=compra*0.20
-# total=compra-descuento 
+# total=compra-descuento
 # if cliente == "SI":
 #     print(f"su compra tiene un descuento por ser vip {total}")
 # elif cliente =="NO":
@@ -183,11 +183,11 @@
 
 # if numero % 5 == 0 and numero % 3 == 0 :
 #     print("el numero si es multiplo de 5 y 3 al mismo tiempo")
-# else : 
+# else :
 #     print("el numero no es multiplo de 5 y 3")
 
-# ejercicio 10 
-#dado un numero revisa si es divisible entre dos numero dados 
+# ejercicio 10
+#dado un numero revisa si es divisible entre dos numero dados
 
 # numero1=(int(input("ingrese el primer numero:", )))
 # numero2=(int(input("ingrese el segundo numero:", )))
@@ -197,7 +197,7 @@
 #     print("si es divisible")
 # elif numero2 % numero1 == 0 and numero2 % numero3 == 0:
 #     print("si es divisible 2")
-# else: 
+# else:
 #     print("es divisible entre el 3")
 
 #ejercicio 11
@@ -237,7 +237,7 @@
 # ultimo_nombre=nombres[-1]
 # if ultimo_nombre == "marta":
 #     print("nombre correcto")
-# else: 
+# else:
 #     print("nombre incorrecto")
 
 # ejercicio 15
@@ -248,4 +248,111 @@
 #     colores[1] = "morado"
 # print(f"lista actuallizada{colores}")
 
+#ejercicio 16
+#crea una tupla con valores. si el primero es mayor muestre "orden ascendente"
+
+# tupla=[5,8,12,20]
+
+# if tupla[0] < [3]:
+#     print("orden descendente")
+# else:
+#     print("orden ascendente")
+
+# #ejercicio 17
+# #dada la tupla verifica si el segunado numero es mayor a 30
+
+# tupla=[25,32,28]
+
+# if tupla[1] > 30:
+#     print("edad mayor")
+# else :
+#     print("edad menoir o igaul 30")
+
+#ejercicio 18
+#cambia de tupla a lista. cambia el sugundo numero a 10 soo si es 2, buelve a combertirla y muestrala
+
+# tupla=[1,2,3]
+# lista=list(tupla)
+# if lista[1] == 2:             #cambiamos el 2 ppor el 10
+#     lista[1] = 10
+# nueva_tupla= tuple(lista)
+# print(nueva_tupla)             # imprimimos el resultado
+
+# ejercicio 19
+#dad la tupla, accede al segundo numero si es mayor a 5 muestra "coordenada alta"
+
+# tupla=[4,9]
+# if tupla[1] > 5 :
+#     print("coodenada alta")
+# else :
+#     print("coordenada baja")
+
+#ejercicio 20
+#compra si dos tuplas son iguales, si lo son muestra "tuplas iguales"
+
+# tupla=[3,4]
+# tupla1=[3,5]
+
+# if tupla == tupla1 :
+#     print("tuplas iguales")
+# else :
+#     print("tuplas diferentes")
+
+#ejercicio 21 
+#crea un diccionario si la edad es mayor a 18 muestra "adulto"
+
+# diccionario={
+#     "nombre": "juan",
+#     "edad": 17
+#     }
+# if diccionario ["edad"] >= 18 :
+#     print("adulto")
+# else :
+#     print("menor de edad")
+
+# #ejercicio 22
+# #crea un diccionario, si la edad es mayor a 18 cambia el valor de "edad" a 21, y muestralo 
+
+# diccionario={
+# "nombre" : "lucia",
+# "edad" : 20
+# }
+# if diccionario["edad"] > 18 :
+#     diccionario ["edad"] = 21
+# print(f"{diccionario}")
+
+#ejrcicio 23
+#crea una diccionario. si no existe la clave, agrega con el valor "bogota" mostrar
+
+# diccionario={
+#     "nombre" : "carlos"
+# }
+# if "ciudad" not in diccionario :
+#     diccionario ["ciudad"] = "bogota"
+#     print(f"{diccionario}")
+
+#ejercicio 24
+#dado el diccionario verifica si la clave"pricio" exixte; si existe muestra su valor, si no, "no hay precio"
+
+# diccionario={
+#     "producto" : "pan ",
+#     "precio" : 1200 
+# }
+
+# if "precio" in diccionario :
+#     print(diccionario["precio"])
+# else :
+#     print("no hay precio")
+
+#ejercicio 25
+#crea un diccionario, si "pan" esta en el diccionario muestra su precio; si no muestra "producto no disponible"
+
+diccionario={
+    "pan" : 1200,
+    "leche" : 2000
+}
+if "pan" in diccionario :
+    print(diccionario["pan"])
+else : 
+    print("producto no disponible")
 
