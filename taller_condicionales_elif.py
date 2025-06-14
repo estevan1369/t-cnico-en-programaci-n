@@ -347,12 +347,12 @@
 #ejercicio 25
 #crea un diccionario, si "pan" esta en el diccionario muestra su precio; si no muestra "producto no disponible"
 
-diccionario={
-    "pan" : 1200,
-    "leche" : 2000
-}
-if "pan" in diccionario :
-    print(diccionario["pan"])
-else : 
-    print("producto no disponible")
+# diccionario={
+#     "pan" : 1200,
+#     "leche" : 2000
+# }
+# if "pan" in diccionario :
+#     print(diccionario["pan"])
+# else : 
+#     print("producto no disponible")
 
