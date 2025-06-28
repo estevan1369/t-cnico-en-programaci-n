@@ -154,12 +154,46 @@
 #ejercicio12
 #crea una lista de 5 colores, y utiliza el bucle para que el usuario escriba colores hasta encontrar los que se encuentran el la lista 
 
-lista=["rojo", "morado", "negro"]
-colores=(input("ingrese un color hasta encontrar el corecto: "))
-while colores not in lista:
-    print(f"la {colores} no se encuentra en la lista")
-    colores=(input("ingrese un color:", ))
-print(f"la {colores} si se encuentra en la lista")
+# lista=["rojo", "morado", "negro"]
+# colores=(input("ingrese un color hasta encontrar el que se encuentre en la lista: "))
+# while colores not in lista:
+#     print(f"la {colores} no se encuentra en la lista")
+#     colores=(input("ingrese un color:", ))
+# print(f"la {colores} si se encuentra en la lista")
+
+#ejercicio13
+#pide un numero y muestra sus potencias desde la 1 hsta la 5
+
+# exponente=2
+# num=(int(input("ingrese un numero: ")))
+# while exponente <6:
+#     print(f"{num}** {exponente} = {num**exponente}")
+#     exponente+=1
+
+#ejercicio14
+# pide 5 numeros y guarda sus cuadrados en una lista. muestra la lista
+
+# numero=[]
+# cuadrado=[]
+# contador=0
+# while contador <5:
+#     num=(int(input(f"dado5 numeros {contador + 1}: ")))
+#     numero.append (num)
+#     cuadrado.append (num**2)
+#     contador += 1
+# print(f"los numeros {numero} y su contador { contador}")
+
+    #ejercicio15
+#crea un programa que deje registrar estudiantes con su nota final.usa un diccionario, el usuario debe poder escribir varios hasta que escriba fin.
+
+# estudiantes={}
+# while True:
+#     nombre=input("ingrese el nombre del estudiante \n o escribe fin para finalizar")
+#     if nombre.lower()=="fin":
+#         break 
+#     nota=(float(input("ingrese la nota de{nombre}")))
+#     estudiantes{nombre}= nota 
+# print(f"estudiantes y su nota: {estudiantes}")
 
 
 
