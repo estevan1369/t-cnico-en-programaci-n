@@ -73,12 +73,103 @@
 #     contador+=1
 
 # ejercicio7
-numS=17
-ad=int(input("ingrese el numero secreto ¿si puredes?", ))
-while ad != numS:
-    if ad < numS:
-        print("el numero es mayor")
-    else:
-        print("el numero es menor")
-    ad=int(input("ingrese el numero secreto ¿si puedes?", ))
-print("¡correcto!")
+#el programa toiene un numero secreto, el usuario debe adivinar y el programa indicar si es mayor o menor.
+
+# numS=17
+# ad=int(input("ingrese el numero secreto si puredes", ))
+# while ad != numS:
+#     if ad < numS:
+#         print("el numero es mayor")
+#     else:
+#         print("el numero es menor")
+#     ad=int(input("ingrese el numero secreto ¿si puedes?", ))
+# print("¡correcto!")
+
+#ejercicio8
+#rea una tupla, pide al usuario que adivine las frutas que estan dentro de la tupla
+
+# tuplas= ("manzana","pera","uva","tomate")
+# fruta=(input("ingrese una frupa:", ))
+
+# while fruta not in tuplas:
+#     print(f"la {fruta} no se encuentra en la lista")
+#     fruta=(input("ingrese una frupa:", ))
+# print(f"la {fruta} si se encuentra en la lista")
+
+#ejercicio9
+#crea un diccionario de 5 palabras que tengan su traduccion al ingles, y que al solicitar una palabra en español de la traduccion en ingles
+
+# diccionario={
+#     "leche": "milk",
+#     "cafe": "coffi",
+#     "agua": "water",
+#     "ensalada": "salad",
+#     "pollo": "chiken"
+# }
+
+# while True:
+#     hola=input("estribe una palabra en español para traducir a igles: " )
+#     if hola in diccionario:
+#         print(f"la palabra {hola} si se encuentra en el diccionario {diccionario [hola]}")
+#     else:
+#         print(f"la palabra {hola} no se encuentra en el diccionario")
+
+#ejercicio10
+#haz un menu dentro de un while para que el usuario elija si sumar restar multiplicar dividir o salir,luego realiza la operacion
+# print("\n.menu \n 1.suma \n2.resta \n 3.multiplicacion \n 4.division \n 5.salir")
+
+# num1=(float(input("ingrese el primer numero: ")))
+# num2=(float(input("ngrese el segundo numero: ")))
+# while True:
+#     opcion=(int(input("elige una de las 5 opciones(o oprime salir para finalizar): ")))
+   
+#     if opcion == 1:
+#         result=num1+num2
+#     elif opcion == 2:
+#         result=num1-num2
+#     elif opcion ==3:
+#         result=num1*num2
+#     elif opcion == 4: 
+#         result=num1/num2
+#     elif opcion == 5:
+#         break
+#     else:
+#         print("opcion no valida")
+#     print(f"{result}")
+
+#ejercicio11
+#ingresa nombre y edades, detente cuando el usuario escriba salir en nombre y finaliza mostrando el diccionaeio
+
+# diccionario={
+   
+# }
+# while True:
+#     nombre=(input("ingrese su nombre(o ponga salir para finalizar): "))
+#     if nombre.lower()=="salir":
+#         break
+#     edad=(int(input(f"ingrese la edad de {nombre}: ")))
+#     diccionario[nombre] = edad
+#     print(f"{diccionario}")
+
+#ejercicio12
+#crea una lista de 5 colores, y utiliza el bucle para que el usuario escriba colores hasta encontrar los que se encuentran el la lista 
+
+lista=["rojo", "morado", "negro"]
+colores=(input("ingrese un color hasta encontrar el corecto: "))
+while colores not in lista:
+    print(f"la {colores} no se encuentra en la lista")
+    colores=(input("ingrese un color:", ))
+print(f"la {colores} si se encuentra en la lista")
+
+
+
+
+
+        
+        
+        
+    
+
+
+
+
